@@ -35,5 +35,8 @@
         
         double max = CalculateMax(numbers);
         Console.WriteLine("Max: " + max);
+        
+        double min = CalculateMin(numbers);
+        Console.WriteLine("Min: " + min);
     }
 }
