@@ -39,6 +39,6 @@
         double min = CalculateMin(numbers);
         Console.WriteLine("Min: " + min);
         
-        Console.WriteLine("Good Bye!");
+        Console.WriteLine("and of course Good Bye!");
     }
 }
