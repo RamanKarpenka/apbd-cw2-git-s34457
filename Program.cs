@@ -16,5 +16,11 @@
         Console.WriteLine("What is your name?: ");
         string name = Console.ReadLine();
         Console.WriteLine("Hi " +  name);
+        
+        Console.WriteLine("Enter numbers separated by space");  
+        string input = Console.ReadLine();
+        int[] numbers = input.Split(' ').Select(int.Parse).ToArray();
+        double avg = CalculateAverage(numbers);
+        Console.WriteLine("Average: " + avg);
     }
 }
