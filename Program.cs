@@ -15,6 +15,11 @@
         return values.Max();
     }
     
+    static int CalculateMin(int[] values)
+    {
+        return values.Min();
+    }
+    
     static void Main(string[] args)
     {
         Console.WriteLine("Application to math methods");
