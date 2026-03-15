@@ -30,5 +30,7 @@
         
         double max = CalculateMax(numbers);
         Console.WriteLine("Max: " + max);
+        
+        Console.WriteLine("Good Bye!");
     }
 }
