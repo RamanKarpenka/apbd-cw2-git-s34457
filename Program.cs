@@ -27,5 +27,8 @@
         int[] numbers = input.Split(' ').Select(int.Parse).ToArray();
         double avg = CalculateAverage(numbers);
         Console.WriteLine("Average: " + avg);
+        
+        double max = CalculateMax(numbers);
+        Console.WriteLine("Max: " + max);
     }
 }
