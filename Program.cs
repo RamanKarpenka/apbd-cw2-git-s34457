@@ -10,6 +10,11 @@
         return sum / values.Length;
     }
     
+    static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
+    
     static void Main(string[] args)
     {
         Console.WriteLine("Application to math methods");
